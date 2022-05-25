@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Manrope:wght@400;500&display=swap');
 
 body{
-    /* background-color:rgb(255, 0, 0);opacity:1.9; */
     background-color:rgb(255, 182, 193);
     line-height:1.4;
     font-family: 'Lato', sans-serif;
@@ -13,27 +12,6 @@ body{
 
 .navbar{
     display: none;
-}
-
-.nav-ul li{
-    margin-right: 10px;
-}
-
-.top-hero--text-section,
-.phone-image-text--section{
-    margin-top: 60px;
-    font-size:20px;
-}
-
-.icon-social{
-    width: 400px;
-    height:100%;
-    padding-top: 30px;
-}
-
-.phone{
-    width: 500px;
-    height:100%;
 }
 
 input{
@@ -77,10 +55,6 @@ button:hover{
     padding:20px;
 }
 
-#btn-signup{
-    width:100%;
-}
-
 
 @media screen and (max-width: 769px) {
     body{
@@ -115,6 +89,7 @@ button:hover{
        background-color:blanchedalmond;
        color:black;
    }
+
    
    .feed-back--hero,
    .sign-up--section{
@@ -133,7 +108,6 @@ button:hover{
         font-weight: 400;
         font-family: 'Lato', sans-serif;
         font-family: 'Manrope', sans-serif;
-        border:1px solid black;
     }
 
     .tab-nav-link,
@@ -205,6 +179,11 @@ button:hover{
   }
 
   @media screen and (max-width: 321px) {
+      .top-hero--text-section p,
+      .footer-one p{
+          font-size: 12px;
+      }
+
     .conditions .Terms{
         margin-left: -50px;
         padding:-5px 10px;
