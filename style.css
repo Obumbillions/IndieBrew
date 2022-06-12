@@ -29,11 +29,12 @@ body{
         background-color:rgb(255, 182, 193);
         line-height:1.4;
         font-family: 'Lato', sans-serif;
+        border: 10px solid red;
     }
-    
-    .navbar{
+
+    /* .navbar{
         display: none;
-    }
+    } */
     .conditions .Terms{
      margin-left: -300px;
      padding-bottom: 22px;
@@ -42,7 +43,11 @@ body{
     input[type="checkbox"]{
      margin-left:-310px;
     }
- 
+
+ .feed-back--hero{
+   max-width: 90%;
+   margin: 0 auto;
+}
    
    .feed-back--hero,
    .sign-up--section{
