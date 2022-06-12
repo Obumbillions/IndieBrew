@@ -29,12 +29,8 @@ body{
         background-color:rgb(255, 182, 193);
         line-height:1.4;
         font-family: 'Lato', sans-serif;
-        border: 10px solid red;
     }
 
-    /* .navbar{
-        display: none;
-    } */
     .conditions .Terms{
      margin-left: -300px;
      padding-bottom: 22px;
