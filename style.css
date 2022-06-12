@@ -52,6 +52,27 @@ body{
 }
 
 @media screen and (max-width: 426px) {
+    body{
+      border: 10px solid red;
+    }
+
+    .top-hero--text-section{
+        max-width: 95%;
+    }
+
+    .laptop-mobile{
+        max-width: 280px;
+    }
+
+    footer{
+        max-width:420px;
+    }
+
+    .navbar-right{
+       margin-right:-250px;
+       
+    }
+
     #icon-socials{
         width:75%; 
        } 
@@ -92,9 +113,14 @@ body{
     .btn-text{
         display: none;
     }
+
+     
   }
 
   @media screen and (max-width: 378px) {
+    .navbar-right{
+        margin-right:-220px;
+    }
     .conditions .Terms{
         margin-left: -70px;
         margin-top: -15px;
@@ -109,10 +135,17 @@ body{
        .header .Tablet-Navbar-menu #flex-box {
         display: none;
     }
+
+    .icon-social{
+        width:200px; 
+    }
    
   }
 
   @media screen and (max-width: 321px) {
+    .navbar-right{
+        margin-right:-160px;
+    }
     .conditions .Terms{
         margin-left: -50px;
         padding:-5px 10px;

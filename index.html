@@ -13,7 +13,7 @@
 <body>
         <!-- Navigation-->
         <div class="container">
-            <div class="header align-items-center d-flex justify-content-between pt-4">
+            <div class="header d-flex align-items-center justify-content-between pt-4">
                 <!--Logo-->
                     <div class="nav-logo">
                         <svg width="147" height="42" viewBox="0 0 147 42" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -32,22 +32,24 @@
                         </svg>        
                     </div>  
                 <!--Navbar menu Mobile--> 
-                <div class="collapse" id="navbarToggleExternalContent">
-                    <div class="Navbar-menu">
-                        <ul class="list-unstyled">
-                            <li> <a href="about.html" class="text-decoration-none">About-us</a></li>
-                            <li><a href="contact.html" class="text-decoration-none" >Contact us</a></li>
-                        </ul>
-                    <!-- <span class="text-muted"></span> -->
+                 <div class="navbar-right">
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="Navbar-menu">
+                            <ul class="navbar-nav list-unstyled">
+                                <li> <a href="about.html" class="text-decoration-none">About-us</a></li>
+                                <li><a href="contact.html" class="text-decoration-none" >Contact us</a></li>
+                            </ul>
+                            <span class="text-muted"></span>
+                        </div>
                     </div>
-                </div>
-                <nav class="navbar navbar-dark bg-dark">
-                    <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    </div>
-                </nav>
+                    <nav class="navbar navbar-light bg-faded ml-auto">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                    </nav>
+                </div>       
                 <!-- tablet Nav -->
                 <div class="Tablet-Navbar-menu align-items-lg-center align-items-sm-center d-flex pt-1" id="tablet">
                     <div class="menu align-items-center d-flex justify-content-between " id="flex-box" >
@@ -68,10 +70,10 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="hero-image">
-                        <img src="./images/Feed-Mockup.png" class="laptop" alt="feed-mockup" width="100%" height="100%">
+                        <img src="./images/Feed-Mockup.png" class="laptop laptop-mobile" alt="feed-mockup" width="90%" height="100%">
                     </div>
                 </div>
-                <div class="top-hero--text-section fs-lg-5 fs-md-5   mt-lg-4 col-lg-6 col-md-12 col-sm-12">
+                <div class="top-hero--text-section fs-lg-5 fs-md-5 mt-lg-4 col-lg-6 col-md-12 col-sm-12">
                     <h1 class="fw-bolder fs-sm-5 ">Your weekly personal feed digest</h1>
                     <p class="">With IndieBrew, get personal feeds from 
                     resources all around the web, including Reddit,
@@ -94,10 +96,11 @@
 <div class="container pt-4">
     <footer>
         <div class="row">
-            <div class="footer-one col-12 col-sm-12">
+            <div class="footer-one col-12 footer-one-mobile">
                 <h3 class="fw-bold fs-5">IndieBrew</h3>
-                <p class="">With IndieBrew, get personal feeds from resources all around
-                the web, including Reddit, HackerNews, and much more.
+                <p class="">With IndieBrew, get personal feeds from resources <div class="text-break">all around
+                    the web, including Reddit, HackerNews, </div>
+                    <div class="text-break"> and much more.</div>
                 </p>
                 <p>Made with ♥ in the  UK.</p>
             </div>
