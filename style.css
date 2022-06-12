@@ -30,11 +30,10 @@ body{
         line-height:1.4;
         font-family: 'Lato', sans-serif;
     }
-
+    
     .navbar{
         display: none;
     }
- 
     .conditions .Terms{
      margin-left: -300px;
      padding-bottom: 22px;
@@ -52,9 +51,6 @@ body{
 }
 
 @media screen and (max-width: 426px) {
-    body{
-      border: 10px solid red;
-    }
 
     .top-hero--text-section{
         max-width: 95%;
@@ -69,8 +65,7 @@ body{
     }
 
     .navbar-right{
-       margin-right:-250px;
-       
+       margin-right:-250px; 
     }
 
     #icon-socials{
